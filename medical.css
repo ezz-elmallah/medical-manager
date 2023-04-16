@@ -1,0 +1,93 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.patient-info {
+  width: 40%;
+}
+
+.patient-info h2 {
+  margin-top: 0;
+}
+
+.patient-info form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.patient-info label {
+    font-weight: bold;
+}
+
+.patient-info input,
+.patient-info select,
+.patient-info textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.patient-info button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.appointment-schedule {
+  width: 55%;
+}
+
+.appointment-schedule h2 {
+  margin-top: 0;
+}
+
+.appointment-schedule table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.appointment-schedule table th,
+.appointment-schedule table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.appointment-schedule table th {
+  background-color: #333;
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}

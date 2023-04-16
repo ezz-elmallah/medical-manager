@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medical Management Application</title>
+    <link rel="stylesheet" href="medical.css">
+  </head>
+  <body>
+    <header>
+      <h1>Medical Management Application</h1>
+    </header>
+    <main>
+      <section class="patient-info">
+        <h2>Patient Information</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone">
+          <label for="address">Address:</label>
+          <textarea id="address" name="address"></textarea>
+          <button type="submit">Save</button>
+        </form>
+      </section>
+      <section class="appointment-schedule">
+        <h2>Appointment Schedule</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Doctor</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>04/20/2023</td>
+              <td>10:00 AM</td>
+              <td>Dr. ezz el mallah</td>
+              <td>Annual checkup</td>
+            </tr>
+            <tr>
+              <td>05/10/2023</td>
+              <td>2:00 PM</td>
+              <td>Dr. Douha el mallah</td>
+              <td>Follow up on medication</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Medical Management Application</p>
+    </footer>
+  </body>
+</html>
